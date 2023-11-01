@@ -1,0 +1,97 @@
+* {
+  font-family: "roboto";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+}
+/* FF9DAA */
+/* F583CB */
+.container__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100vh;
+  
+  background-image: linear-gradient(to bottom right, #ff9daa, #f583cb);
+}
+.my__info {
+  min-width: 300px;
+  max-width: 400px;
+  border-radius: 32px;
+  background-color: #fff;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
+}
+.avatar__info img {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 12px 8px rgba(0, 0, 0, 0.2);
+}
+.avatar__info {
+  position: absolute;
+  border-radius: 50%;
+  bottom: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cover__image {
+  position: relative;
+}
+.cover__image .cover__image_img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  min-height: 100px;
+  max-height: 200px;
+  border-top-right-radius: 32px;
+  border-top-left-radius: 32px;
+}
+.info {
+  padding: 32px 42px;
+}
+
+.name__info {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.hobby__info {
+  text-align: center;
+  display: block;
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: #bfc0be;
+}
+
+.main__info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8px;
+}
+.hometown__info__detail,
+.age__info__detail {
+  display: block;
+  color: #1691e4;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+}
+.hometown__info__title,
+.age__info__title {
+  color: #cdcfcc;
+  font-size: 0.9rem;
+  text-align: center;
+  display: block;
+}
+.orientation__info {
+  margin-top: 4px;
+  color: #5e5d5f;
+}
+
+.desc__info {
+  margin-top: 24px;
+  color: #5e5d5f;
+}
